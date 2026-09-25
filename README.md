@@ -1,36 +1,50 @@
-# Samarpan Panchal — Portfolio
+# Samarpan Panchal Portfolio V4
 
-Personal portfolio website for **Samarpan Panchal**, Senior Content Writer & Content Marketing Expert.
+This package is the V4 refinement of the portfolio. It keeps the original image assets and case-study media intact, lifts the hero signal card to clear the “Emerging Star · 2025” caption, and expands the toolkit with newer AI-first build, agent, research and automation tools.
 
-## 🚀 Deploy on GitHub Pages
+# Samarpan Panchal - Portfolio v2 Fixed
 
-1. Create a new GitHub repository (e.g. `samarpan-portfolio`)
-2. Upload all files in this folder to the repo root
-3. Go to **Settings → Pages**
-4. Under *Source*, select **Deploy from a branch**
-5. Choose **main** branch → **/ (root)** → Save
-6. Your site will be live at `https://yourusername.github.io/samarpan-portfolio`
+A redesigned, dependency-light portfolio for GitHub Pages / static hosting.
 
-## 📁 File Structure
+## What changed
+
+- Complete visual redesign with an editorial + modern-operations theme.
+- Functional light/dark mode with localStorage persistence and system preference fallback.
+- Responsive mobile navigation with active-section highlighting.
+- Reworked hero, about, experience, case studies, services, process, skills, toolkit, testimonials, credentials and contact sections.
+- Preserved the original local portfolio images and **all embedded case-study image data URIs** from the source build.
+- Case-study slider supports arrows, dots, keyboard navigation and touch swipe.
+- Contact form remains serverless and opens a pre-filled `mailto:` message.
+- Added copy-email helper, back-to-top control, subtle reveal motion and reduced-motion support.
+
+## Deploy
+
+Upload these files to the root of a GitHub Pages repository:
 
 ```
-portfolio-site/
-├── index.html       ← Main HTML file
-├── styles.css       ← All styles
-├── main.js          ← Scroll reveal, nav, contact form
-├── img-hero.jpg     ← Hero section photo
-├── img-about.jpg    ← About section photo
-├── img-skills.jpg   ← Skills section photo
-└── README.md        ← This file
+index.html
+styles.css
+main.js
+img-hero.png
+img-about.png
+img-skills.png
+README.md
 ```
 
-## ✏️ Customisation
+No build step is required.
 
-- **Content** — Edit `index.html` directly
-- **Colours / fonts** — Edit the `:root` variables at the top of `styles.css`
-- **Photos** — Replace `img-hero.jpg`, `img-about.jpg`, `img-skills.jpg` with your own (keep same filenames)
-- **Contact form** — The form fires a `mailto:` link. For a real backend form, replace `handleSubmit()` in `main.js` with a Formspree or EmailJS integration
+## Fix pass
 
-## 🌐 Live Preview (local)
+- Removed the arrow from the scroll cue.
+- Reworked the About quote for a sharper, more natural voice.
+- Removed the case-study retention note and the working-principle caption.
+- Expanded the toolkit with SEO, AI, analytics, automation and delivery tools including Profound and n8n.
+- Renamed the testimonials section to **A few notes from the other side.**
+- Fixed the contact headline contrast so **to tell?** is clearly visible in the lime section.
+- Removed the mailto implementation note below the contact form.
+- Removed em dashes from the visible site copy.
+- Increased display heading line height so italic descenders do not collide with the next line.
+- Kept light and dark theme persistence, slider navigation, touch gestures, keyboard controls and all original case-study media intact.
 
-Open `index.html` directly in any browser — no build step required.
+
+V4 content refinements: removed the About greeting, emphasized 6+ years, and reframed the beyond-content section heading.
